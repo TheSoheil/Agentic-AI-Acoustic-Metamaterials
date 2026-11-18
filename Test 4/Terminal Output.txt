@@ -1,0 +1,6 @@
+=== Exp 04: Generalization Test Across 3 Metamaterial Topologies ===
+Test A: Hourglass Auxetic (K=4)        | Init IoU:  89.1% -> Final IoU: 100.00% (MSE: 0.000000)
+Test B: Asymmetric Diamond Frame (K=4) | Init IoU:  86.8% -> Final IoU: 100.00% (MSE: 0.000000)
+Test C: 6-Strut Kagome Star Cell (K=6) | Init IoU:  81.4% -> Final IoU: 100.00% (MSE: 0.000000)
+
+Saved 3-topology validation figure to: mmc_suite_result.png
