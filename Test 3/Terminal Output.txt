@@ -1,0 +1,24 @@
+=== Forward & Inverse MMC Ellipsoid Test (Exp 03: Greedy Strut Pursuit) ===
+Step 1 (Strut Pursuit Init) Overlap IoU: 83.80%
+
+--- Running 250-Step Inverse MMC Optimization ---
+Step 000 | Pixel MSE Loss: 0.037191 | Overlap IoU: 83.80%
+Step 050 | Pixel MSE Loss: 0.000141 | Overlap IoU: 99.26%
+Step 100 | Pixel MSE Loss: 0.000001 | Overlap IoU: 99.89%
+Step 150 | Pixel MSE Loss: 0.000000 | Overlap IoU: 100.00%
+Step 200 | Pixel MSE Loss: 0.000000 | Overlap IoU: 100.00%
+Step 249 | Pixel MSE Loss: 0.000000 | Overlap IoU: 100.00%
+
+Saved updated visual proof to: mmc_inverse_result.png
+
+Ground-Truth [K x 5] Table:
+[[ 0.5    0.5    0.42   0.08   0.785]
+ [ 0.5    0.5    0.42   0.08  -0.785]
+ [ 0.5    0.22   0.28   0.07   0.   ]
+ [ 0.5    0.78   0.28   0.07   0.   ]]
+
+Extracted [K x 5] Ellipsoid Table:
+[[ 0.5    0.5    0.42   0.08  -0.785]
+ [ 0.5    0.78   0.28   0.07  -0.   ]
+ [ 0.5    0.22   0.28   0.07  -0.   ]
+ [ 0.5    0.5    0.42   0.08   0.785]]
