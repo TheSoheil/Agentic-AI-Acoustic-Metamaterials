@@ -1,0 +1,17 @@
+=== Forward & Inverse MMC Ellipsoid Test ===
+
+--- Running 200-Step Inverse MMC Optimization ---
+Step 000 | Pixel MSE Loss: 0.07689 | Overlap IoU: 73.5%
+Step 040 | Pixel MSE Loss: 0.03498 | Overlap IoU: 84.2%
+Step 080 | Pixel MSE Loss: 0.03135 | Overlap IoU: 85.8%
+Step 120 | Pixel MSE Loss: 0.03126 | Overlap IoU: 85.9%
+Step 160 | Pixel MSE Loss: 0.03126 | Overlap IoU: 85.8%
+Step 199 | Pixel MSE Loss: 0.03126 | Overlap IoU: 85.8%
+
+Saved visual proof to: mmc_inverse_result.png
+
+Extracted [K x 5] Ellipsoid Table (x_c, y_c, a, b, theta_rad):
+[[0.554 0.337 0.248 0.147 2.59 ]
+ [0.52  0.713 0.272 0.138 0.097]
+ [0.48  0.287 0.272 0.138 0.097]
+ [0.446 0.663 0.248 0.147 2.59 ]]
