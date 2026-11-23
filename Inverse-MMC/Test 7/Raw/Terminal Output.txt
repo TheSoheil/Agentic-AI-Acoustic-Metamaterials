@@ -1,0 +1,13 @@
+=== Exp 05: Non-MMC Polygon / Literature Image -> MMC Ellipsoid Extraction ===
+Generating NON-MMC Polygon Raster Target: Re-Entrant Auxetic Unit Cell (K=6)
+Step 1 (Ray-March Init) Overlap IoU: 66.75%
+Step 3 (Optimized MMC)  Overlap IoU: 81.70% | Final MSE: 0.03249
+Saved figure to: mmc_real_lit_result.png
+
+Extracted [K x 5] Ellipsoid Table (x_c, y_c, a, b, theta_rad):
+[[ 0.515  0.828  0.381  0.05  -0.007]
+ [ 0.506  0.182  0.374  0.05   0.003]
+ [ 0.737  0.363  0.263 -0.06  -1.059]
+ [ 0.28   0.672  0.244  0.044 -1.012]
+ [ 0.28   0.338  0.244  0.044  1.012]
+ [ 0.711  0.341  0.244 -0.06  -1.075]]
