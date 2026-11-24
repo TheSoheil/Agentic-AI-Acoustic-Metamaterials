@@ -1,0 +1,20 @@
+=== Exp 06: Progressive 2D-Residual MMC Pursuit ===
+Generating NON-MMC Polygon Target: Re-Entrant Auxetic Cell
+  + Added Strut #01 | 2D Gain:   455 px | Current IoU: 24.71%
+  + Added Strut #02 | 2D Gain:   455 px | Current IoU: 48.36%
+  + Added Strut #03 | 2D Gain:   258 px | Current IoU: 60.51%
+  + Added Strut #04 | 2D Gain:   242 px | Current IoU: 71.21%
+  + Added Strut #05 | 2D Gain:   216 px | Current IoU: 81.48%
+  + Added Strut #06 | 2D Gain:   214 px | Current IoU: 92.21%
+Stopping automatically at K=6 (remaining 2D gain < 1.5% solid area).
+
+Final Result | K=6 Ellipsoids | Overlap IoU: 92.20% | MSE: 0.01030
+
+Extracted [K x 5] Ellipsoid Table (x_c, y_c, a, b, theta_rad):
+[[ 0.505  0.828  0.372  0.05  -0.   ]
+ [ 0.505  0.182  0.372  0.05   0.   ]
+ [ 0.28   0.672  0.244  0.044 -1.012]
+ [ 0.731  0.338  0.244  0.044 -1.012]
+ [ 0.73   0.672  0.244  0.044  1.012]
+ [ 0.28   0.338  0.244  0.044  1.012]]
+Saved figure to: mmc_progressive_result.png

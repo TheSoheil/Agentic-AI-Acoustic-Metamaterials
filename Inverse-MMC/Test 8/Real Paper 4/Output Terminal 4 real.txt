@@ -1,0 +1,18 @@
+=== Exp 06: Progressive 2D-Residual MMC Pursuit ===
+Loading real literature image: real_paper.png
+  + Added Strut #01 | 2D Gain:  1372 px | Current IoU: 47.60%
+  + Added Strut #02 | 2D Gain:   294 px | Current IoU: 59.53%
+  + Added Strut #03 | 2D Gain:   260 px | Current IoU: 69.51%
+  + Added Strut #04 | 2D Gain:   113 px | Current IoU: 74.55%
+  + Added Strut #05 | 2D Gain:    76 px | Current IoU: 76.28%
+Stopping automatically at K=5 (remaining 2D gain < 1.5% solid area).
+
+Final Result | K=5 Ellipsoids | Overlap IoU: 78.15% | MSE: 0.06596
+
+Extracted [K x 5] Ellipsoid Table (x_c, y_c, a, b, theta_rad):
+[[ 0.887  0.456  0.65   0.102 -1.581]
+ [ 0.692  0.829  0.187  0.096  0.823]
+ [ 0.668  0.17   0.196  0.078 -0.843]
+ [ 0.541  0.502  0.256  0.046 -1.574]
+ [ 0.695  0.499  0.205  0.027  0.004]]
+Saved figure to: mmc_progressive_result.png
