@@ -1,0 +1,29 @@
+=== Exp 07: Progressive 2D-Residual MMC (Aspect-Ratio + RGB Support) ===
+Loading real literature image: real_paper.png
+Grid Resolution: 197x100 | Physical Domain: [0, 1.97] x [0, 1.00]
+  + Added Strut #01 | 2D Gain:  1234 px | Current IoU: 13.22%
+  + Added Strut #02 | 2D Gain:  1188 px | Current IoU: 26.31%
+  + Added Strut #03 | 2D Gain:  1256 px | Current IoU: 38.68%
+  + Added Strut #04 | 2D Gain:   934 px | Current IoU: 48.62%
+  + Added Strut #05 | 2D Gain:   912 px | Current IoU: 58.82%
+  + Added Strut #06 | 2D Gain:   603 px | Current IoU: 64.73%
+  + Added Strut #07 | 2D Gain:   778 px | Current IoU: 74.25%
+  + Added Strut #08 | 2D Gain:   506 px | Current IoU: 79.17%
+  + Added Strut #09 | 2D Gain:   471 px | Current IoU: 83.50%
+  + Added Strut #10 | 2D Gain:   433 px | Current IoU: 88.82%
+Stopping automatically at K=10 (remaining 2D gain < 1.5% solid area).
+
+Final Result | K=10 Ellipsoids | Overlap IoU: 90.02% | MSE: 0.04659
+
+Extracted [K x 5] Ellipsoid Table (x_c, y_c, a, b, theta_rad):
+[[ 0.871  0.376  1.28   0.053  0.786]
+ [ 1.613  0.626  1.28   0.053  0.789]
+ [ 0.494  0.492  1.28   0.053  0.788]
+ [ 1.64   0.337  1.28   0.053 -0.788]
+ [ 0.877  0.608  1.28   0.053 -0.787]
+ [ 0.197  0.689  1.28   0.052  0.783]
+ [ 0.642  0.35   1.28   0.053 -0.788]
+ [ 1.929  0.542  1.28   0.053 -0.785]
+ [ 0.321  0.176  1.28   0.052 -0.788]
+ [ 1.663  0.18   1.28   0.052  0.792]]
+Saved figure to: mmc_progressive_result.png
